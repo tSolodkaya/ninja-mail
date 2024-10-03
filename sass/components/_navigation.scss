@@ -1,0 +1,56 @@
+.navigation {
+  @media screen and (width < 767px) {
+    display: none;
+  }
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+
+  @media screen and (width > 1439px) {
+    gap: 15px;
+  }
+}
+
+.menu__item {
+  text-align: center;
+}
+
+.menu__link {
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1.18;
+  letter-spacing: 0.825px;
+  text-transform: uppercase;
+
+  @media screen and (width > 1439px) {
+    font-size: 17px;
+    letter-spacing: 1.275px;
+  }
+
+  &::after {
+    content: "";
+    display: block;
+    min-width: 71px;
+    height: 3px;
+    margin-top: 3px;
+
+    @media screen and (width > 1439px) {
+      height: 5px;
+      min-width: 110px;
+      margin-top: 6px;
+    }
+
+    background-color: $brand-color;
+    transition: background-color $animation-time $animation-function;
+  }
+
+  &:hover::after,
+  &:focus::after {
+    background-color: $main-text-color;
+  }
+}

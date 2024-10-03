@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ninja email</title>
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -36,5 +43,37 @@
     />
     <meta name="theme-color" content="#ffffff" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo">
+          <a class="logo__link" href="./index.html">
+            <svg class="logo__icon" width="30" height="24">
+              <use href="./images/symbol-defs.svg#icon-logo"></use>
+            </svg>
+            <h1 class="logo__title">Ninja Mail</h1>
+          </a>
+        </div>
+        <nav class="navigation">
+          <ul class="menu">
+            <li class="menu__item">
+              <a class="menu__link" href="#">FEATURES</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">PRICING</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">SERVICES</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">PARTNERS</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="sign-up sign-up--margin-left">
+          <a class="sign-up__link" href="#">SIGN UP FREE</a>
+        </div>
+      </header>
+    </div>
+  </body>
 </html>

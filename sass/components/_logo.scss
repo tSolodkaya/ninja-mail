@@ -1,0 +1,29 @@
+.logo {
+  @media screen and (width > 767px) {
+    margin-right: auto;
+  }
+}
+
+.logo__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo__title {
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.18;
+
+  @media screen and (width > 1439px) {
+    font-size: 35px;
+  }
+}
+
+.logo__icon {
+  @media screen and (width > 1439px) {
+    width: 40px;
+    height: 32px;
+  }
+}
