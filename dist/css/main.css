@@ -269,4 +269,172 @@ button {
     font-size: 17px;
     letter-spacing: 1.275px;
   }
+}
+
+.hero {
+  width: 300px;
+  margin: 10px auto;
+  background-repeat: no-repeat;
+  background-size: 300px 169px;
+  background-position: 0 51px;
+  background-image: url("../../images/mob/hero@1x.jpg");
+  background-image: -webkit-image-set(url("../../images/mob/hero@2x.jpg") 2x, url("../../images/mob/hero@1x.jpg") 1x);
+  background-image: -webkit-image-set(url("../../images/mob/hero@2x.avif") type("image/avif") 2x, url("../../images/mob/hero@1x.avif") type("image/avif") 1x, url("../../images/mob/hero@2x.webp") type("image/webp") 2x, url("../../images/mob/hero@1x.webp") type("image/webp") 1x, url("../../images/mob/hero@2x.jpg") type("image/jpeg") 2x, url("../../images/mob/hero@1x.jpg") type url("image/jpeg") 1x);
+  background-image: image-set(url("../../images/mob/hero@2x.avif") type("image/avif") 2x, url("../../images/mob/hero@1x.avif") type("image/avif") 1x, url("../../images/mob/hero@2x.webp") type("image/webp") 2x, url("../../images/mob/hero@1x.webp") type("image/webp") 1x, url("../../images/mob/hero@2x.jpg") type("image/jpeg") 2x, url("../../images/mob/hero@1x.jpg") type "image/jpeg" 1x);
+}
+@media screen and (width > 767px) {
+  .hero {
+    width: 710px;
+    min-height: 250px;
+    margin: 50px auto;
+    background-repeat: no-repeat;
+    background-size: 445px 250px;
+    background-position: top right;
+    background-image: url("../../images/tab/hero@1x.jpg");
+    background-image: -webkit-image-set(url("../../images/tab/hero@2x.jpg") 2x, url("../../images/tab/hero@1x.jpg") 1x);
+    background-image: -webkit-image-set(url("../../images/tab/hero@2x.avif") type("image/avif") 2x, url("../../images/tab/hero@1x.avif") type("image/avif") 1x, url("../../images/tab/hero@2x.webp") type("image/webp") 2x, url("../../images/tab/hero@1x.webp") type("image/webp") 1x, url("../../images/tab/hero@2x.jpg") type("image/jpeg") 2x, url("../../images/tab/hero@1x.jpg") type url("image/jpeg") 1x);
+    background-image: image-set(url("../../images/tab/hero@2x.avif") type("image/avif") 2x, url("../../images/tab/hero@1x.avif") type("image/avif") 1x, url("../../images/tab/hero@2x.webp") type("image/webp") 2x, url("../../images/tab/hero@1x.webp") type("image/webp") 1x, url("../../images/tab/hero@2x.jpg") type("image/jpeg") 2x, url("../../images/tab/hero@1x.jpg") type "image/jpeg" 1x);
+  }
+}
+@media screen and (width > 1439px) {
+  .hero {
+    width: 1088px;
+    min-height: 383px;
+    margin: 100px auto;
+    background-repeat: no-repeat;
+    background-size: 680px 383px;
+    background-position: top right;
+    background-image: url("../../images/desk/hero@1x.jpg");
+    background-image: -webkit-image-set(url("../../images/desk/hero@2x.jpg") 2x, url("../../images/desk/hero@1x.jpg") 1x);
+    background-image: -webkit-image-set(url("../../images/desk/hero@2x.avif") type("image/avif") 2x, url("../../images/desk/hero@1x.avif") type("image/avif") 1x, url("../../images/desk/hero@2x.webp") type("image/webp") 2x, url("../../images/desk/hero@1x.webp") type("image/webp") 1x, url("../../images/desk/hero@2x.jpg") type("image/jpeg") 2x, url("../../images/desk/hero@1x.jpg") type url("image/jpeg") 1x);
+    background-image: image-set(url("../../images/desk/hero@2x.avif") type("image/avif") 2x, url("../../images/desk/hero@1x.avif") type("image/avif") 1x, url("../../images/desk/hero@2x.webp") type("image/webp") 2x, url("../../images/desk/hero@1x.webp") type("image/webp") 1x, url("../../images/desk/hero@2x.jpg") type("image/jpeg") 2x, url("../../images/desk/hero@1x.jpg") type "image/jpeg" 1x);
+  }
+}
+
+@media screen and (width > 767px) {
+  .hero__wrap {
+    width: 315px;
+    margin-top: 15px;
+  }
+}
+@media screen and (width > 1439px) {
+  .hero__wrap {
+    width: 490px;
+    margin-top: 22px;
+  }
+}
+
+.hero__title {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 1.28;
+}
+@media screen and (width < 768px) {
+  .hero__title {
+    margin-bottom: 100px;
+  }
+  .hero__title .line-break {
+    display: block;
+  }
+}
+@media screen and (width > 768px) {
+  .hero__title {
+    margin-bottom: 17px;
+    font-size: 38px;
+    line-height: 1.21;
+  }
+}
+@media screen and (width > 1439px) {
+  .hero__title {
+    margin-bottom: 23px;
+    font-size: 59px;
+  }
+}
+
+.hero__description {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.14;
+}
+@media screen and (width > 767px) {
+  .hero__description {
+    margin-bottom: 25px;
+    font-size: 12px;
+    line-height: 1.33;
+  }
+}
+@media screen and (width > 1439px) {
+  .hero__description {
+    margin-bottom: 35px;
+    font-size: 19px;
+    line-height: 1.36;
+  }
+}
+
+.hero-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (width < 768px) {
+  .hero-buttons {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media screen and (width > 767px) {
+  .hero-buttons {
+    gap: 30px;
+  }
+}
+@media screen and (width > 1439px) {
+  .hero-buttons {
+    gap: 45px;
+  }
+}
+
+.hero-buttons__link {
+  min-width: 143px;
+  padding: 12px 15px;
+  border: 3px solid #4ba87d;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: 0.65px;
+  -webkit-transition: -webkit-box-shadow 250ms ease-in;
+  transition: -webkit-box-shadow 250ms ease-in;
+  transition: box-shadow 250ms ease-in;
+  transition: box-shadow 250ms ease-in, -webkit-box-shadow 250ms ease-in;
+}
+.hero-buttons__link--green {
+  background-color: #4ba87d;
+  color: #fff;
+}
+.hero-buttons__link--white {
+  background-color: #fff;
+  color: #4ba87d;
+}
+.hero-buttons__link:hover, .hero-buttons__link:focus {
+  -webkit-box-shadow: 0px 0px 8px 0px rgb(66, 68, 90);
+          box-shadow: 0px 0px 8px 0px rgb(66, 68, 90);
+}
+@media screen and (width > 767px) {
+  .hero-buttons__link {
+    min-width: 131px;
+  }
+}
+@media screen and (width > 1439px) {
+  .hero-buttons__link {
+    min-width: 200px;
+    font-size: 21px;
+    line-height: 1.19;
+    letter-spacing: 1.05px;
+  }
 }/*# sourceMappingURL=main.css.map */
