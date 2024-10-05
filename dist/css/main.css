@@ -690,4 +690,108 @@ button {
     font-size: 19px;
     line-height: 1.37;
   }
+}
+
+.reaching {
+  max-width: 239px;
+  margin: 0 auto;
+}
+@media screen and (width > 767px) {
+  .reaching {
+    max-width: 710px;
+  }
+}
+@media screen and (width > 1439px) {
+  .reaching {
+    max-width: 1090px;
+  }
+}
+
+.reaching__list {
+  margin-bottom: 60px;
+}
+@media screen and (width > 767px) {
+  .reaching__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (width > 1439px) {
+  .reaching__list {
+    margin-bottom: 40px;
+    gap: 32px;
+  }
+}
+
+.member {
+  position: relative;
+  width: 223px;
+  height: 157px;
+  -webkit-transition: -webkit-box-shadow 250ms ease-in;
+  transition: -webkit-box-shadow 250ms ease-in;
+  transition: box-shadow 250ms ease-in;
+  transition: box-shadow 250ms ease-in, -webkit-box-shadow 250ms ease-in;
+}
+@media screen and (width < 767px) {
+  .member {
+    margin: 0 auto;
+  }
+  .member:not(:last-child) {
+    margin-bottom: 21px;
+  }
+}
+.member:hover, .member:focus {
+  -webkit-box-shadow: 0px 0px 8px 0px rgb(66, 68, 90);
+          box-shadow: 0px 0px 8px 0px rgb(66, 68, 90);
+}
+@media screen and (width > 1439px) {
+  .member {
+    width: 342px;
+    height: 239px;
+  }
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-32.5%, #000), color-stop(67.78%, rgba(84, 84, 84, 0)));
+  background: linear-gradient(0deg, #000 -32.5%, rgba(84, 84, 84, 0) 67.78%);
+}
+
+.member__name {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.18;
+}
+@media screen and (width > 1439px) {
+  .member__name {
+    font-size: 34px;
+  }
+}
+
+.member__scince {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+@media screen and (width > 1439px) {
+  .member__scince {
+    font-size: 19px;
+  }
+}
+
+.member__meta {
+  position: absolute;
+  bottom: 10px;
+  left: 25px;
 }/*# sourceMappingURL=main.css.map */
