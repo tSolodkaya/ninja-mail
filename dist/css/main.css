@@ -1024,4 +1024,61 @@ button {
         -ms-flex-direction: row;
             flex-direction: row;
   }
+}
+
+.pricing {
+  width: 100%;
+  padding: 43px 0 60px 0;
+  background-color: #4ba87d;
+  text-align: center;
+}
+@media screen and (width > 1439px) {
+  .pricing {
+    padding: 82px 0 95px 0;
+  }
+}
+
+.pricing__title {
+  color: #fff;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 42px;
+  font-weight: 900;
+  line-height: 1.14;
+  margin-bottom: 30px;
+}
+@media screen and (width > 1439px) {
+  .pricing__title {
+    font-size: 60px;
+    line-height: 1.33;
+  }
+}
+
+.pricing__link {
+  max-width: 131px;
+  padding: 13px 20px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #4ba87d;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: 0.65px;
+  -webkit-transition: -webkit-box-shadow 250ms ease-in;
+  transition: -webkit-box-shadow 250ms ease-in;
+  transition: box-shadow 250ms ease-in;
+  transition: box-shadow 250ms ease-in, -webkit-box-shadow 250ms ease-in;
+}
+.pricing__link:hover, .pricing__link:focus {
+  -webkit-box-shadow: 0px 0px 8px 0px rgb(66, 68, 90);
+          box-shadow: 0px 0px 8px 0px rgb(66, 68, 90);
+}
+@media screen and (width > 1439px) {
+  .pricing__link {
+    max-width: 200px;
+    padding: 20px 30px;
+    font-size: 21px;
+    line-height: 1.2;
+    letter-spacing: 1.05px;
+  }
 }/*# sourceMappingURL=main.css.map */
