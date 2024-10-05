@@ -1,6 +1,6 @@
 .hero {
   width: 300px;
-  margin: 10px auto;
+  margin: 0 auto;
 
   background-repeat: no-repeat;
   background-size: 300px 169px;
@@ -25,7 +25,7 @@
   @media screen and (width > 767px) {
     width: 710px;
     min-height: 250px;
-    margin: 50px auto;
+    margin: 0 auto;
 
     background-repeat: no-repeat;
     background-size: 445px 250px;
