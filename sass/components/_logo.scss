@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   &--left {
     justify-content: flex-start;
   }
@@ -17,7 +18,7 @@
   margin-left: 10px;
   font-size: 22px;
   font-weight: 900;
-  line-height: 1.18;
+  line-height: 1.2;
 
   @media screen and (width > 1439px) {
     font-size: 35px;
@@ -25,8 +26,11 @@
 }
 
 .logo__icon {
+  width: 25px;
+  height: 25px;
+
   @media screen and (width > 1439px) {
     width: 40px;
-    height: 32px;
+    height: 40px;
   }
 }

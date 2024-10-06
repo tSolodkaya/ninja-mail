@@ -1,16 +1,19 @@
 .header {
+  max-width: 320px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding: 15px 0 22px 0;
+  padding: 15px 0;
 
   @media screen and (width > 767px) {
+    max-width: 768px;
     justify-content: flex-end;
-    padding: 18px 0 23px 0;
+    padding: 20px 0;
   }
 
   @media screen and (width > 1439px) {
-    padding: 28px 75px 33px 75px;
+    max-width: 1440px;
+    padding: 30px 60px;
   }
 }

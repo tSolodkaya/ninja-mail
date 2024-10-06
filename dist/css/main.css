@@ -87,19 +87,20 @@ button {
 }
 
 .container {
-  width: 320px;
+  max-width: 320px;
   margin: 0 auto;
   padding: 0 10px;
 }
 @media screen and (width > 767px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 15px;
   }
 }
 @media screen and (width > 1439px) {
   .container {
-    width: 1440px;
+    max-width: 1440px;
+    padding: 0 15px;
   }
 }
 
@@ -130,7 +131,7 @@ button {
   margin-left: 10px;
   font-size: 22px;
   font-weight: 900;
-  line-height: 1.18;
+  line-height: 1.2;
 }
 @media screen and (width > 1439px) {
   .logo__title {
@@ -138,14 +139,19 @@ button {
   }
 }
 
+.logo__icon {
+  width: 25px;
+  height: 25px;
+}
 @media screen and (width > 1439px) {
   .logo__icon {
     width: 40px;
-    height: 32px;
+    height: 40px;
   }
 }
 
 .header {
+  max-width: 320px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -157,19 +163,21 @@ button {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  padding: 15px 0 22px 0;
+  padding: 15px 0;
 }
 @media screen and (width > 767px) {
   .header {
+    max-width: 768px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    padding: 18px 0 23px 0;
+    padding: 20px 0;
   }
 }
 @media screen and (width > 1439px) {
   .header {
-    padding: 28px 75px 33px 75px;
+    max-width: 1440px;
+    padding: 30px 60px;
   }
 }
 
@@ -206,14 +214,14 @@ button {
 .menu__link {
   font-size: 11px;
   font-weight: 800;
-  line-height: 1.18;
-  letter-spacing: 0.825px;
+  line-height: 1.2;
+  letter-spacing: 0.8px;
   text-transform: uppercase;
 }
 @media screen and (width > 1439px) {
   .menu__link {
     font-size: 17px;
-    letter-spacing: 1.275px;
+    letter-spacing: 1.3px;
   }
 }
 .menu__link::after {
