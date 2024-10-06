@@ -120,6 +120,11 @@ button {
       -ms-flex-align: center;
           align-items: center;
 }
+.logo__link--left {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
 
 .logo__title {
   margin-left: 10px;
@@ -1080,5 +1085,206 @@ button {
     font-size: 21px;
     line-height: 1.2;
     letter-spacing: 1.05px;
+  }
+}
+
+footer {
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+@media screen and (width > 767px) {
+  footer {
+    max-width: 768px;
+    padding: 50px 30px 30px 30px;
+  }
+}
+@media screen and (width > 1439px) {
+  footer {
+    max-width: 1440px;
+    padding: 80px 175px 40px 175px;
+  }
+}
+
+.footer__menues {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 70px;
+  margin-bottom: 24px;
+}
+@media screen and (width > 767px) {
+  .footer__menues {
+    gap: 40px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (width > 1439px) {
+  .footer__menues {
+    gap: 60px;
+    margin-bottom: 75px;
+  }
+}
+
+@media screen and (width > 767px) {
+  .footer__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    gap: 40px;
+  }
+}
+@media screen and (width > 1439px) {
+  .footer__wrap {
+    gap: 75px;
+  }
+}
+
+.line-decoration {
+  width: 100%;
+  height: 1px;
+  background-color: #dbdbdb;
+  margin-bottom: 25px;
+}
+@media screen and (width > 1439px) {
+  .line-decoration {
+    height: 2px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (width < 768px) {
+  .logo__footer {
+    margin-bottom: 18px;
+  }
+}
+
+.footer__link {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.17;
+  -webkit-transition: -webkit-box-shadow 250ms ease-in;
+  transition: -webkit-box-shadow 250ms ease-in;
+  transition: box-shadow 250ms ease-in;
+  transition: box-shadow 250ms ease-in, -webkit-box-shadow 250ms ease-in;
+}
+.footer__link:hover, .footer__link:focus {
+  -webkit-box-shadow: 0px 0px 8px 0px rgb(66, 68, 90);
+          box-shadow: 0px 0px 8px 0px rgb(66, 68, 90);
+}
+@media screen and (width > 1439px) {
+  .footer__link {
+    font-size: 19px;
+    line-height: 1.15;
+  }
+}
+
+.navigates__item,
+.socials__item {
+  margin-bottom: 7px;
+}
+@media screen and (width > 767px) {
+  .navigates__item:not(:last-child),
+  .socials__item:not(:last-child) {
+    margin-bottom: 7px;
+  }
+}
+@media screen and (width > 1439px) {
+  .navigates__item:not(:last-child),
+  .socials__item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.resourses__item:not(:last-child),
+.contacts__item:not(:last-child) {
+  margin-bottom: 7px;
+}
+
+.copyright {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 2.1;
+}
+@media screen and (width < 768px) {
+  .copyright {
+    margin-bottom: 14px;
+  }
+  .copyright--linebreak {
+    display: block;
+  }
+}
+@media screen and (width > 1436px) {
+  .copyright {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+}
+
+.rights__link {
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1.22;
+  -webkit-transition: -webkit-box-shadow 250ms ease-in;
+  transition: -webkit-box-shadow 250ms ease-in;
+  transition: box-shadow 250ms ease-in;
+  transition: box-shadow 250ms ease-in, -webkit-box-shadow 250ms ease-in;
+}
+.rights__link:hover, .rights__link:focus {
+  -webkit-box-shadow: 0px 0px 8px 0px rgb(66, 68, 90);
+          box-shadow: 0px 0px 8px 0px rgb(66, 68, 90);
+}
+@media screen and (width > 1439px) {
+  .rights__link {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (width < 768px) {
+  .rights__item:not(:last-child) {
+    margin-bottom: 7px;
+  }
+}
+
+@media screen and (width > 767px) {
+  .rigths {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+  }
+}
+
+@media screen and (width > 767px) {
+  .logo-menu-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 50px;
+  }
+}
+
+@media screen and (width > 767px) {
+  .footer__rigths {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 50px;
   }
 }/*# sourceMappingURL=main.css.map */
