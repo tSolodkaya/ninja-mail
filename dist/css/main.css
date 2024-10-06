@@ -257,16 +257,16 @@ button {
 }
 
 .sign-up__link {
+  padding: 5px 12px;
+  min-width: 110px;
   color: #fff;
   background-color: #4ba87d;
   border: 1px solid #4ba87d;
-  padding: 5px 12px;
-  min-width: 110px;
   text-align: center;
   font-size: 11px;
   font-weight: 800;
-  line-height: 1.18;
-  letter-spacing: 0.825px;
+  line-height: 1.2;
+  letter-spacing: 0.8px;
   -webkit-transition: -webkit-box-shadow 250ms ease-in;
   transition: -webkit-box-shadow 250ms ease-in;
   transition: box-shadow 250ms ease-in;
@@ -279,9 +279,9 @@ button {
 @media screen and (width > 1439px) {
   .sign-up__link {
     min-width: 168px;
-    padding: 10px 19px 10px 19px;
+    padding: 10px 19px;
     font-size: 17px;
-    letter-spacing: 1.275px;
+    letter-spacing: 1.3px;
   }
 }
 
