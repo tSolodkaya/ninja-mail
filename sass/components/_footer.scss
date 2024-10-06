@@ -67,7 +67,7 @@ footer {
 .footer__link {
   font-size: 12px;
   font-weight: 700;
-  line-height: 1.17;
+  line-height: 1.2;
 
   transition: box-shadow $animation-time $animation-function;
   &:hover,
@@ -77,13 +77,15 @@ footer {
 
   @media screen and (width > 1439px) {
     font-size: 19px;
-    line-height: 1.15;
+    line-height: 1.2;
   }
 }
 
 .navigates__item,
 .socials__item {
-  margin-bottom: 7px;
+  @media screen and (width < 768px) {
+    margin-bottom: 7px;
+  }
 
   @media screen and (width > 767px) {
     &:not(:last-child) {
@@ -118,7 +120,7 @@ footer {
     }
   }
 
-  @media screen and (width > 1436px) {
+  @media screen and (width > 1439px) {
     font-size: 15px;
     line-height: 1.2;
   }
@@ -127,7 +129,7 @@ footer {
 .rights__link {
   font-size: 9px;
   font-weight: 700;
-  line-height: 1.22;
+  line-height: 1.2;
 
   transition: box-shadow $animation-time $animation-function;
   &:hover,
