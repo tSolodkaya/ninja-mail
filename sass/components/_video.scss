@@ -26,7 +26,7 @@
 
   background-repeat: no-repeat;
   background-size: 300px 170px;
-  background-color: linear-gradient($background-gradient);
+  background: linear-gradient($background-gradient);
 
   background-image: linear-gradient($background-gradient),
     url("../../images/mob/video/video@1x.jpg");

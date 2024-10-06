@@ -45,10 +45,6 @@ body {
   font-style: normal;
 }
 
-address {
-  font-style: normal;
-}
-
 a {
   text-decoration: none;
   color: currentColor;
@@ -100,7 +96,6 @@ button {
 @media screen and (width > 1439px) {
   .container {
     max-width: 1440px;
-    padding: 0 15px;
   }
 }
 
@@ -484,7 +479,8 @@ button {
   text-align: center;
   background-repeat: no-repeat;
   background-size: 300px 170px;
-  background-color: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2)));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../images/mob/video/video@1x.jpg");
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/mob/video/video@1x.jpg");
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), -webkit-image-set(url("../../images/mob/video/video@2x.jpg") 2x, url("../../images/mob/video/video@1x.jpg") 1x);
